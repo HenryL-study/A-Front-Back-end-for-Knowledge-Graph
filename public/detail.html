@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Knowledge Graph</title>
+		<title>Inspiration for Search UI Effects | Demo 3 | Codrops</title>
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/style3.css" />
@@ -187,12 +187,104 @@ var myChart = echarts.init(dom);
 var app = {};
 option = null;
 myChart.showLoading();
-$.get('/detail/les-miserables.gexf', function (xml) {
+$.get('les-miserables.gexf', function (xml) {
     myChart.hideLoading();
 
     var graph = echarts.dataTool.gexf.parse(xml);
-    console.log(graph);
+    //console.log(graph);
     var categories = [];
+    var sei = [];
+    
+
+
+    //should from server after get data!!!!!!!
+    var dir = [[0,1]];
+    var convertData = function (data) {
+        var res = [];
+        for (var i = 0; i < data.length; i++) {
+            var dataItem = data[i];
+            var fromCoord = [(graph.nodes[dataItem[0]].x),graph.nodes[dataItem[0]].y];
+            var toCoord = [(graph.nodes[dataItem[1]].x),graph.nodes[dataItem[1]].y];
+            if (fromCoord && toCoord) {
+            res.push({
+                coords: [fromCoord, toCoord]
+            });
+        }
+        }
+        console.log(res);
+        return res;
+    };
+    
+    var convertData2 = function (data) {
+        var res = [];
+        for (var i = 0; i < 1; i++) {
+            var dataItem = data[i];
+            var fromCoord = [graph.nodes[dataItem[0]].x,graph.nodes[dataItem[0]].y];
+            var toCoord = [graph.nodes[dataItem[1]].x,graph.nodes[dataItem[1]].y];
+            if (fromCoord && toCoord) {
+            res.push(fromCoord);
+        }
+        }
+        console.log(res);
+        return res;
+    };
+    
+    sei.push(
+        {
+            //name: item[0] + ' Top10',
+            type: 'lines',
+            roam : true,
+            zlevel: 2,
+            coordinateSystem: 'geo',
+            effect: {
+                show: true,
+                period: 6,
+                trailLength: 0.7,
+                color: '#fff',
+                symbolSize: 3
+            },
+            lineStyle: {
+                normal: {
+                    color: '#a6c84c',
+                    width: 0,
+                    curveness: -0.3
+                }
+            },
+            data: convertData(dir)
+        },
+        {
+            //name: item[0] + ' Top10',
+            type: 'lines',
+            roam : true,
+            zlevel: 3,
+            coordinateSystem: 'geo',
+            symbol: ['none', 'arrow'],
+            symbolSize: 10,
+            effect: {
+                show: true,
+                period: 6,
+                trailLength: 0,
+                symbol: 'circle',
+                symbolSize: 15
+            },
+            lineStyle: {
+                normal: {
+                    color: '#a6c84c',
+                    width: 1,
+                    opacity: 0.6,
+                    curveness: -0.3
+                }
+            },
+            data: convertData(dir)
+        },
+        {
+            type: 'effectScatter',
+            zlevel: 3,
+            symbolSize: 1,
+            data: convertData2(dir)
+        }
+    );
+    
     for (var i = 0; i < 9; i++) {
         categories[i] = {
             name: '类目' + i
@@ -200,7 +292,7 @@ $.get('/detail/les-miserables.gexf', function (xml) {
     }
     graph.nodes.forEach(function (node) {
         node.itemStyle = null;
-        node.value = node.symbolSize;
+        node.value = [node.x,node.y];
         node.symbolSize /= 1.5;
         node.label = {
             normal: {
@@ -229,30 +321,13 @@ $.get('/detail/les-miserables.gexf', function (xml) {
         }
         //console.log(edge.name);
     });
-    option = {
-        title: {
-            text: 'Knowledge Graph',
-            subtext: 'Default layout',
-            top: 'bottom',
-            left: 'right'
-        },
-        tooltip: {
-        	show:true,
-        	backgroundColor : 'rgba(255,255,255,0.5)'
-        },
-        legend: [{
-            // selectedMode: 'single',
-            // data: categories.map(function (a) {
-            //     return a.name;
-            // })
-        }],
-        animationDuration: 1500,
-        animationEasingUpdate: 'quinticInOut',
-        series : [
-            {
+    var sei2 = []; 
+    sei.push(
+        {
                 name: 'Knowledge Graph',
                 type: 'graph',
                 layout: 'none',
+                coordinateSystem: 'geo',
                 focusNodeAdjacency: true,
                 data: graph.nodes,
                 links: graph.links,
@@ -270,10 +345,68 @@ $.get('/detail/les-miserables.gexf', function (xml) {
                         curveness: 0.3
                     }
                 }
-            }
-        ]
+        }
+    )
+    
+    option = {
+        title: {
+            text: 'Knowledge Graph',
+            subtext: 'Default layout',
+            top: 'bottom',
+            left: 'right'
+        },
+        tooltip: {
+        	show:true,
+        	backgroundColor : 'rgba(255,255,255,0.5)'
+        },
+        coordinateSystem: 'geo',
+        legend: [{
+            // selectedMode: 'single',
+            // data: categories.map(function (a) {
+            //     return a.name;
+            // })
+        }],
+        geo: {
+            roam: true,
+            show: true,
+            map: 'world',
+            left: '10',
+            right: '35%',
+            center: [117.98561551896913, 31.205000490896193],
+            zoom: 2.5,
+            label: {
+                emphasis: {
+                    show: false
+                }
+            },
+            
+            itemStyle: {
+                normal: {
+                    areaColor: 'rgb(255,255,255,0)',
+                    borderColor: 'rgb(255,255,255,0)'
+                }
+                // emphasis: {
+                //     areaColor: 'rgb(255,255,255,0)'
+                // }
+            },
+            silent: true
+        },
+        xAxis: [
+            {  
+             // type: value,
+                show: false}
+        ],
+        yAxis: [
+            {
+                // type: value,
+            show: false}
+        ],
+//        animationDuration: 1500,
+//        animationEasingUpdate: 'quinticInOut',
+        series : sei
     };
-
+    
+    console.log(sei);
     myChart.setOption(option);
 }, 'xml');
 if (option && typeof option === "object") {
