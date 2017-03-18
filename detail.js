@@ -18,8 +18,8 @@ router.route('/')
 
     //console.log('The solution ');
     //console.log(req.baseUrl);
-    console.log(req.query);
-    console.log(req.query.search);
+    //console.log(req.query);
+    //console.log(req.query.search);
     
     if("What is the relation between Terrell Buckley and Miami Dolphins?" == req.query.search){
         filename = 'Q1.xml';
@@ -63,7 +63,8 @@ router.route('/les-miserables.gexf')
 //    console.log(req.baseUrl);
 //    console.log(req.query);
 //    console.log(req.query.what);
-    
+    console.log("asasas");
+    console.log("lalalalaalalal" + filename);
     res.sendFile(__dirname + "/public/" + filename);
     
 //    res.writeHead(200, { 'Content-Type': 'text/plain' });
@@ -74,8 +75,8 @@ router.route('/content')
 .get(function(req,res,next){
 
     //console.log('The solution ');
-    console.log(req.baseUrl);
-    console.log(req.query);
+    //console.log(req.baseUrl);
+    //console.log(req.query);
     //console.log(req.query.what);
     res.send({
         modal_head: head,

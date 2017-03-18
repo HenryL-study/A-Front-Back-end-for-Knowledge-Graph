@@ -187,7 +187,7 @@ var myChart = echarts.init(dom);
 var app = {};
 option = null;
 myChart.showLoading();
-$.get('les-miserables.gexf', function (xml) {
+$.get('/detail/les-miserables.gexf', function (xml) {
     myChart.hideLoading();
 
     var graph = echarts.dataTool.gexf.parse(xml);
