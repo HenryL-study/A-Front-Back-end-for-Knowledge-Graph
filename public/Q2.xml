@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-01-30">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Tom Cruise">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="American actor and film producer"></attvalue>
+        </attvalues>
+        <viz:size value="128.685715"></viz:size>
+        <viz:position x="158" y="200" z="0.0"></viz:position>
+        <viz:color r="235" g="81" b="72"></viz:color>
+      </node>
+      <node id="1" label="human">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="common name of Homo sapiens (Q15978631), unique extant species of the genus Homo"></attvalue>
+        </attvalues>
+        <viz:size value="64.0"></viz:size>
+        <viz:position x="200" y="400" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="2" label="male">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="human gender"></attvalue>
+        </attvalues>
+        <viz:size value="59.485714"></viz:size>
+        <viz:position x="212.76357" y="245.29176" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="3" label="United States of America">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="federal republic in North America"></attvalue>
+        </attvalues>
+        <viz:size value="49.485714"></viz:size>
+        <viz:position x="42.82404" y="235.26283" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="4" label="Thomas">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="male given name"></attvalue>
+        </attvalues>
+        <viz:size value="69.485714"></viz:size>
+        <viz:position x="379.30386" y="42.06424" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="5" label="Syracuse">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="county seat of Onondaga County, New York, United States"></attvalue>
+        </attvalues>
+        <viz:size value="69.485714"></viz:size>
+        <viz:position x="-47.26337" y="316.03506" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="6" label="Mimi Rogers">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="film and television actress from the United States"></attvalue>
+        </attvalues>
+        <viz:size value="89.485714"></viz:size>
+        <viz:position x="-132.6012" y="85.16974" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="7" label="Rebecca De Mornay">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="American actress"></attvalue>
+        </attvalues>
+        <viz:size value="79.485714"></viz:size>
+        <viz:position x="382.69568" y="175.09113" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="8" label="Suri Cruise">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="No description defined"></attvalue>
+        </attvalues>
+        <viz:size value="79.485714"></viz:size>
+        <viz:position x="320.384" y="387.17325" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="9" label="William Mapother">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="American actor"></attvalue>
+        </attvalues>
+        <viz:size value="79.485714"></viz:size>
+        <viz:position x="344.39832" y="1.16772" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="10" label="actor">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="person who acts in a dramatic or comic production and works in film, television, theatre, or radio"></attvalue>
+        </attvalues>
+        <viz:size value="79.485714"></viz:size>
+        <viz:position x="389.34107" y="332.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="11" label="Golden Globe Award for Best Actor – Motion Picture Drama">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="award"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="87.93029" y="-6.8120565" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="12" label="Academy Award for Best Supporting Actor">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="award"></attvalue>
+        </attvalues>
+        <viz:size value="16.742859"></viz:size>
+        <viz:position x="-39.77908" y="384.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="13" label="Henry Munro Middle School">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="Henry Munro Middle School"></attvalue>
+        </attvalues>
+        <viz:size value="74.0"></viz:size>
+        <viz:position x="-14.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="14" label="Beacon Hill">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="neighbourhood located in Ottawa"></attvalue>
+        </attvalues>
+        <viz:size value="74.0"></viz:size>
+        <viz:position x="-13.05168" y="80.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="15" label="Scientology">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="body of beliefs and related practices created by science fiction writer L. Ron Hubbard"></attvalue>
+        </attvalues>
+        <viz:size value="74.0"></viz:size>
+        <viz:position x="258.05168" y="20.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="16" label="ambidexterity">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="ability to do any task equally well with either hand"></attvalue>
+        </attvalues>
+        <viz:size value="74.0"></viz:size>
+        <viz:position x="-49.05168" y="1.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="17" label="Tom Cruise filmography">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="Tom Cruise filmography"></attvalue>
+        </attvalues>
+        <viz:size value="74.0"></viz:size>
+        <viz:position x="200" y="0" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="1" source="2" target="0" label="sex or gender">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="2" source="3" target="0" label="country of citizenship">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="3" source="4" target="0" label="birth name">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4" source="5" target="0" label="place of birth">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5" source="6" target="0" label="spouse">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="6" source="7" target="0" label="partner">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="7" source="8" target="0" label="child">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="8" source="9" target="0" label="relative">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="9" source="10" target="0" label="occupation">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="10" source="11" target="0" label="award received">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="11" source="12" target="0" label="nominated for">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="12" source="13" target="0" label="educated at">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="13" source="14" target="0" label="residence">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="14" source="15" target="0" label="religion">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="15" source="16" target="0" label="handedness">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="16" source="17" target="0" label="filmography">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

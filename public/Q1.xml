@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-01-30">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Miami Dolphins">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="National Football League franchise in Miami, Florida"></attvalue>
+        </attvalues>
+        <viz:size value="158.685715"></viz:size>
+        <viz:position x="200" y="0" z="0.0"></viz:position>
+        <viz:color r="235" g="81" b="72"></viz:color>
+      </node>
+      <node id="1" label="Terrell Buckley">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="All-American college football player, professional football player, defensive back, cornerback"></attvalue>
+        </attvalues>
+        <viz:size value="158.685715"></viz:size>
+        <viz:position x="200" y="400" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="2" label="American football team">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="organization, in which a group of players are organized to compete as a team in American football"></attvalue>
+        </attvalues>
+        <viz:size value="59.485714"></viz:size>
+        <viz:position x="1.82404" y="245.29176" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="3" label="AFC East">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="Afc eastAmerican Football Conference EastAmerican Football Conference East DivisionAFL Eastern ConferenceAFL East"></attvalue>
+        </attvalues>
+        <viz:size value="49.485714"></viz:size>
+        <viz:position x="42.82404" y="235.26283" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="4" label="United States of America">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="tooltip" value="federal republic in North America"></attvalue>
+        </attvalues>
+        <viz:size value="69.485714"></viz:size>
+        <viz:position x="379.30386" y="42.06424" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="5" label="Adam Gase">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="tooltip" value="American football coach"></attvalue>
+        </attvalues>
+        <viz:size value="69.485714"></viz:size>
+        <viz:position x="-47.26337" y="316.03506" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="6" label="American Football League">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="tooltip" value="professional football league that merged with National Football League in 1970"></attvalue>
+        </attvalues>
+        <viz:size value="89.485714"></viz:size>
+        <viz:position x="-132.6012" y="85.16974" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="7" label="Hard Rock Stadium">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="tooltip" value="home venue of the Miami Dolphins"></attvalue>
+        </attvalues>
+        <viz:size value="79.485714"></viz:size>
+        <viz:position x="382.69568" y="175.09113" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="8" label="American football">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="tooltip" value="American sport in which opposing teams of eleven players attempt to score by advancing a ball by running, passing and kicking"></attvalue>
+        </attvalues>
+        <viz:size value="79.485714"></viz:size>
+        <viz:position x="320.384" y="387.17325" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="9" label="English">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="tooltip" value="West Germanic language originating in England"></attvalue>
+        </attvalues>
+        <viz:size value="79.485714"></viz:size>
+        <viz:position x="344.39832" y="1.16772" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="10" label="human">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="tooltip" value="common name of Homo sapiens , unique extant species of the genus Homo"></attvalue>
+        </attvalues>
+        <viz:size value="79.485714"></viz:size>
+        <viz:position x="389.34107" y="332.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="11" label="male">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="tooltip" value="human gender"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="87.93029" y="-6.8120565" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="12" label="Terrell">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="tooltip" value="No description defined"></attvalue>
+        </attvalues>
+        <viz:size value="16.742859"></viz:size>
+        <viz:position x="-39.77908" y="384.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="13" label="Pascagoula">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="tooltip" value="city in Mississippi, United States"></attvalue>
+        </attvalues>
+        <viz:size value="74.0"></viz:size>
+        <viz:position x="-14.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="14" label="baseball player">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="tooltip" value="person who plays the game of baseball"></attvalue>
+        </attvalues>
+        <viz:size value="74.0"></viz:size>
+        <viz:position x="158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="2" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="1" source="3" target="0" weight="8.0" label="part of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="2" source="4" target="0" weight="10.0" label="country">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="3" source="5" target="0" weight="6.0" label="head coach">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4" source="6" target="0" label="league">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5" source="7" target="0" label="home venue">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="6" source="8" target="0" label="sport">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="7" source="9" target="0" label="official website">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="8" source="10" target="1" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="9" source="11" target="1" label="sex or gender">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="10" source="12" target="1" label="given name">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="11" source="4" target="1" label="country of citizenship">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="12" source="13" target="1" label="place of birth">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="13" source="14" target="1" label="occupation">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="14" source="0" target="1" label="member of sports team">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
