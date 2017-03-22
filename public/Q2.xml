@@ -14,8 +14,8 @@
           <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="tooltip" value="American actor and film producer"></attvalue>
         </attvalues>
-        <viz:size value="128.685715"></viz:size>
-        <viz:position x="158" y="200" z="0.0"></viz:position>
+        <viz:size value="78.685715"></viz:size>
+        <viz:position x="-8" y="-1" z="0.0"></viz:position>
         <viz:color r="235" g="81" b="72"></viz:color>
       </node>
       <node id="1" label="human">
@@ -23,8 +23,8 @@
           <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="tooltip" value="common name of Homo sapiens (Q15978631), unique extant species of the genus Homo"></attvalue>
         </attvalues>
-        <viz:size value="64.0"></viz:size>
-        <viz:position x="200" y="400" z="0.0"></viz:position>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="100" y="60" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="2" label="male">
@@ -32,8 +32,8 @@
           <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="tooltip" value="human gender"></attvalue>
         </attvalues>
-        <viz:size value="59.485714"></viz:size>
-        <viz:position x="212.76357" y="245.29176" z="0.0"></viz:position>
+        <viz:size value="19.485714"></viz:size>
+        <viz:position x="12.76357" y="45.29176" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="3" label="United States of America">
@@ -42,7 +42,7 @@
           <attvalue for="tooltip" value="federal republic in North America"></attvalue>
         </attvalues>
         <viz:size value="49.485714"></viz:size>
-        <viz:position x="42.82404" y="235.26283" z="0.0"></viz:position>
+        <viz:position x="42.82404" y="-85.26283" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="4" label="Thomas">
@@ -50,8 +50,8 @@
           <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="tooltip" value="male given name"></attvalue>
         </attvalues>
-        <viz:size value="69.485714"></viz:size>
-        <viz:position x="379.30386" y="42.06424" z="0.0"></viz:position>
+        <viz:size value="49.485714"></viz:size>
+        <viz:position x="-159.30386" y="42.06424" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="5" label="Syracuse">
@@ -59,8 +59,8 @@
           <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="tooltip" value="county seat of Onondaga County, New York, United States"></attvalue>
         </attvalues>
-        <viz:size value="69.485714"></viz:size>
-        <viz:position x="-47.26337" y="316.03506" z="0.0"></viz:position>
+        <viz:size value="29.485714"></viz:size>
+        <viz:position x="-47.26337" y="16.03506" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="6" label="Mimi Rogers">
@@ -68,7 +68,7 @@
           <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="tooltip" value="film and television actress from the United States"></attvalue>
         </attvalues>
-        <viz:size value="89.485714"></viz:size>
+        <viz:size value="29.485714"></viz:size>
         <viz:position x="-132.6012" y="85.16974" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
@@ -77,8 +77,8 @@
           <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="tooltip" value="American actress"></attvalue>
         </attvalues>
-        <viz:size value="79.485714"></viz:size>
-        <viz:position x="382.69568" y="175.09113" z="0.0"></viz:position>
+        <viz:size value="39.485714"></viz:size>
+        <viz:position x="182.69568" y="-75.09113" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="8" label="Suri Cruise">
@@ -86,8 +86,8 @@
           <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="tooltip" value="No description defined"></attvalue>
         </attvalues>
-        <viz:size value="79.485714"></viz:size>
-        <viz:position x="320.384" y="387.17325" z="0.0"></viz:position>
+        <viz:size value="19.485714"></viz:size>
+        <viz:position x="20.384" y="87.17325" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="9" label="William Mapother">
@@ -95,8 +95,8 @@
           <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="tooltip" value="American actor"></attvalue>
         </attvalues>
-        <viz:size value="79.485714"></viz:size>
-        <viz:position x="344.39832" y="1.16772" z="0.0"></viz:position>
+        <viz:size value="29.485714"></viz:size>
+        <viz:position x="44.39832" y="-1.16772" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="10" label="actor">
@@ -104,8 +104,8 @@
           <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="tooltip" value="person who acts in a dramatic or comic production and works in film, television, theatre, or radio"></attvalue>
         </attvalues>
-        <viz:size value="79.485714"></viz:size>
-        <viz:position x="389.34107" y="332.56128" z="0.0"></viz:position>
+        <viz:size value="39.485714"></viz:size>
+        <viz:position x="89.34107" y="32.56128" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="11" label="Golden Globe Award for Best Actor – Motion Picture Drama">
@@ -113,8 +113,8 @@
           <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="tooltip" value="award"></attvalue>
         </attvalues>
-        <viz:size value="100.0"></viz:size>
-        <viz:position x="87.93029" y="-6.8120565" z="0.0"></viz:position>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="17.93029" y="-6.8120565" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="12" label="Academy Award for Best Supporting Actor">
@@ -123,7 +123,7 @@
           <attvalue for="tooltip" value="award"></attvalue>
         </attvalues>
         <viz:size value="16.742859"></viz:size>
-        <viz:position x="-39.77908" y="384.69139" z="0.0"></viz:position>
+        <viz:position x="-39.77908" y="34.69139" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="13" label="Henry Munro Middle School">
@@ -131,8 +131,8 @@
           <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="tooltip" value="Henry Munro Middle School"></attvalue>
         </attvalues>
-        <viz:size value="74.0"></viz:size>
-        <viz:position x="-14.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-14.31313" y="-78.55301" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="14" label="Beacon Hill">
@@ -140,7 +140,7 @@
           <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="tooltip" value="neighbourhood located in Ottawa"></attvalue>
         </attvalues>
-        <viz:size value="74.0"></viz:size>
+        <viz:size value="24.0"></viz:size>
         <viz:position x="-13.05168" y="80.99768" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
@@ -149,8 +149,8 @@
           <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="tooltip" value="body of beliefs and related practices created by science fiction writer L. Ron Hubbard"></attvalue>
         </attvalues>
-        <viz:size value="74.0"></viz:size>
-        <viz:position x="258.05168" y="20.99768" z="0.0"></viz:position>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="-158.05168" y="20.99768" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="16" label="ambidexterity">
@@ -158,7 +158,7 @@
           <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="tooltip" value="ability to do any task equally well with either hand"></attvalue>
         </attvalues>
-        <viz:size value="74.0"></viz:size>
+        <viz:size value="24.0"></viz:size>
         <viz:position x="-49.05168" y="1.99768" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
@@ -167,8 +167,8 @@
           <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="tooltip" value="Tom Cruise filmography"></attvalue>
         </attvalues>
-        <viz:size value="74.0"></viz:size>
-        <viz:position x="200" y="0" z="0.0"></viz:position>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="100" y="0" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
     </nodes>

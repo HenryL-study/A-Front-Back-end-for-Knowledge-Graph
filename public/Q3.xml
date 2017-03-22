@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-01-30">
+    <creator>Henry</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="University">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="University"></attvalue>
+        </attvalues>
+        <viz:size value="78.685715"></viz:size>
+        <viz:position x="0" y="0" z="0.0"></viz:position>
+        <viz:color r="235" g="81" b="72"></viz:color>
+      </node>
+      <node id="1" label="University of Utah">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="public coeducational space-grant research university in Salt Lake City, Utah"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="100" y="60" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="2" label="Harvard University">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="private research university in Cambridge, Massachusetts, United States"></attvalue>
+        </attvalues>
+        <viz:size value="50"></viz:size>
+        <viz:position x="12.76357" y="45.29176" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="3" label="Yale University">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="private research university in New Haven, Connecticut, United States"></attvalue>
+        </attvalues>
+        <viz:size value="50"></viz:size>
+        <viz:position x="42.82404" y="-85.26283" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="4" label="Columbia University">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="private Ivy League research university in New York City"></attvalue>
+        </attvalues>
+        <viz:size value="50"></viz:size>
+        <viz:position x="-159.30386" y="42.06424" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="5" label="Princeton University">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="a private Ivy League research university in Princeton, New Jersey, United States"></attvalue>
+        </attvalues>
+        <viz:size value="50"></viz:size>
+        <viz:position x="-47.26337" y="16.03506" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="6" label="Brown University
+">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="University in Providence, Rhode Island"></attvalue>
+        </attvalues>
+        <viz:size value="50"></viz:size>
+        <viz:position x="-132.6012" y="85.16974" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="7" label="Dartmouth College">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="university and liberal arts college in Hanover, New Hampshire, United States"></attvalue>
+        </attvalues>
+        <viz:size value="50"></viz:size>
+        <viz:position x="182.69568" y="-75.09113" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="8" label="University of Michigan">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="public research university in Ann Arbor, Michigan, United States"></attvalue>
+        </attvalues>
+        <viz:size value="50"></viz:size>
+        <viz:position x="20.384" y="87.17325" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="9" label="William Mapother">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="American actor"></attvalue>
+        </attvalues>
+        <viz:size value="50"></viz:size>
+        <viz:position x="44.39832" y="-1.16772" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="10" label="University of Minnesota">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="public research university in Minneapolis and Saint Paul, Minnesota, United States"></attvalue>
+        </attvalues>
+        <viz:size value="50"></viz:size>
+        <viz:position x="89.34107" y="32.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="11" label="Utah">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="state of the United States of America"></attvalue>
+        </attvalues>
+        <viz:size value="30.0"></viz:size>
+        <viz:position x="17.93029" y="-6.8120565" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="12" label="Cambridge">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="city in Middlesex County, Massachusetts, United States"></attvalue>
+        </attvalues>
+        <viz:size value="30"></viz:size>
+        <viz:position x="-39.77908" y="34.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="13" label="New Haven">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="city in New Haven County, Connecticut, United States"></attvalue>
+        </attvalues>
+        <viz:size value="30"></viz:size>
+        <viz:position x="-14.31313" y="-78.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="14" label="Manhattan">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="borough of New York City, New York, United States"></attvalue>
+        </attvalues>
+        <viz:size value="30"></viz:size>
+        <viz:position x="-13.05168" y="80.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="15" label="Princeton">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="borough in Mercer County, New Jersey"></attvalue>
+        </attvalues>
+        <viz:size value="30"></viz:size>
+        <viz:position x="-158.05168" y="20.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="16" label="Providence">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="capital city of state of Rhode Island, United States"></attvalue>
+        </attvalues>
+        <viz:size value="30"></viz:size>
+        <viz:position x="-49.05168" y="1.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="17" label="Hanover">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="town in Grafton County, New Hampshire, United States"></attvalue>
+        </attvalues>
+        <viz:size value="30"></viz:size>
+        <viz:position x="100" y="0" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="18" label="Ann Arbor">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="county seat of Washtenaw County, Michigan, United States"></attvalue>
+        </attvalues>
+        <viz:size value="30"></viz:size>
+        <viz:position x="10" y="-20" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="19" label="Tom Cruise filmography">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="Tom Cruise filmography"></attvalue>
+        </attvalues>
+        <viz:size value="30"></viz:size>
+        <viz:position x="120" y="-45" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="20" label="Minneapolis">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="city in Hennepin County, Minnesota, United States"></attvalue>
+        </attvalues>
+        <viz:size value="30"></viz:size>
+        <viz:position x="-100" y="66" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="21" label="University of Minnesota system">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="tooltip" value="state university system in Minnesota, United States"></attvalue>
+        </attvalues>
+        <viz:size value="20"></viz:size>
+        <viz:position x="-100" y="66" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="22" label="John Harvard">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="tooltip" value="English-American clergyman and philanthropist"></attvalue>
+        </attvalues>
+        <viz:size value="20"></viz:size>
+        <viz:position x="-100" y="66" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="0" source="2" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="0" source="3" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="0" source="4" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="0" source="5" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="0" source="6" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="0" source="7" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="0" source="8" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="0" source="9" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="0" source="10" target="0" label="instance of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="1" source="11" target="1" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="2" source="12" target="2" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="3" source="13" target="3" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4" source="14" target="4" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5" source="15" target="5" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="6" source="16" target="6" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="7" source="17" target="7" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="8" source="18" target="8" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="9" source="19" target="9" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="10" source="20" target="10" label="located in the administrative territorial entity">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="11" source="21" target="10" label="part of">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="12" source="2" target="22" label="named after">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

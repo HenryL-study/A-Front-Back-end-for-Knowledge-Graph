@@ -1,6 +1,25 @@
-var itemSum = 4;
+var itemSum = 0;
 
-addAnswerItem("倚天屠龙记","张无忌与六大门派决战光明顶");
+//addAnswerItem("倚天屠龙记","张无忌与六大门派决战光明顶");
+$.get("/detail/content", { lala: "2pm" },
+        function(data){
+            
+            var d = data;
+            d.forEach(function(val){
+                addAnswerItem(val.head,val.description);    
+                console.log("log times");
+            });
+            
+            //addAnswerItem(data.modal_head,data.modal_des);
+//            var m_head = document.getElementById('m_head');
+//            var m_content = document.getElementById('m_content');
+//            var img = document.getElementById('ans_img');
+//            
+//            m_head.innerHTML = data.modal_head;
+//            m_content.innerHTML = data.modal_des;
+//            img.setAttribute("src", data.modal_img);
+            //alert("Data Loaded: " + data);
+        }); 
 
 function addAnswerItem(title,text){
 	var fatherItem = document.getElementById('accordion');
@@ -10,7 +29,7 @@ function addAnswerItem(title,text){
 	var panelBody = document.createElement('div');
 	var panelTile = document.createElement('h4');
 	var a = document.createElement('a');
-	alert("ok");
+	//alert("ok");
 	itemDiv.setAttribute("class","panel panel-default");
 	// head
 	panelHead.setAttribute("class","panel-heading");
@@ -18,9 +37,8 @@ function addAnswerItem(title,text){
 
 	panelTile.setAttribute("class","panel-title");
 
-	// itemSum++;
-	if(itemSum!=1){
-		
+    itemSum++;
+	if(itemSum==1){
 		a.setAttribute("aria-expanded","true");
 	}else{
 		a.setAttribute("class","collapsed");
