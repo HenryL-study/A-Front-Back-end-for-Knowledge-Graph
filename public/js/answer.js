@@ -40,9 +40,11 @@ function addAnswerItem(title,text){
     itemSum++;
 	if(itemSum==1){
 		a.setAttribute("aria-expanded","true");
+		panel.setAttribute("class","panel-collapse collapse in");
 	}else{
 		a.setAttribute("class","collapsed");
 		a.setAttribute("aria-expanded","false");
+		panel.setAttribute("class","panel-collapse collapse");
 
 	}
 	a.setAttribute("role","button");
@@ -53,7 +55,7 @@ function addAnswerItem(title,text){
 	a.innerText = title;
 
 	panel.setAttribute("id","collapse"+itemSum);
-	panel.setAttribute("class","panel-collapse collapse");
+	
 	panel.setAttribute("role","tabpanel");
 	panel.setAttribute("aria-labelledby","headingOne");
 
