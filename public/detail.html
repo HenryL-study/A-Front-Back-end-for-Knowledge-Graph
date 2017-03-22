@@ -279,8 +279,8 @@ $.get('/detail/les-miserables.gexf', function (xml) {
                 show: true,
                 period: 6,
                 trailLength: 0,
-                symbol: 'circle',
-                symbolSize: 15
+                symbol: 'arrow',
+                symbolSize: 10
             },
             lineStyle: {
                 normal: {
@@ -291,12 +291,6 @@ $.get('/detail/les-miserables.gexf', function (xml) {
                 }
             },
             data: convertData(dir)
-        },
-        {
-            type: 'effectScatter',
-            zlevel: 3,
-            symbolSize: 1,
-            data: convertData2(dir)
         }
     );
     
