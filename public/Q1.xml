@@ -15,7 +15,7 @@
           <attvalue for="tooltip" value="National Football League franchise in Miami, Florida"></attvalue>
         </attvalues>
         <viz:size value="158.685715"></viz:size>
-        <viz:position x="200" y="0" z="0.0"></viz:position>
+        <viz:position x="100" y="0" z="0.0"></viz:position>
         <viz:color r="235" g="81" b="72"></viz:color>
       </node>
       <node id="1" label="Terrell Buckley">
@@ -24,7 +24,7 @@
           <attvalue for="tooltip" value="All-American college football player, professional football player, defensive back, cornerback"></attvalue>
         </attvalues>
         <viz:size value="158.685715"></viz:size>
-        <viz:position x="200" y="400" z="0.0"></viz:position>
+        <viz:position x="20" y="40" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="2" label="American football team">
@@ -33,7 +33,7 @@
           <attvalue for="tooltip" value="organization, in which a group of players are organized to compete as a team in American football"></attvalue>
         </attvalues>
         <viz:size value="59.485714"></viz:size>
-        <viz:position x="1.82404" y="245.29176" z="0.0"></viz:position>
+        <viz:position x="1.82404" y="45.29176" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="3" label="AFC East">
@@ -42,7 +42,7 @@
           <attvalue for="tooltip" value="Afc eastAmerican Football Conference EastAmerican Football Conference East DivisionAFL Eastern ConferenceAFL East"></attvalue>
         </attvalues>
         <viz:size value="49.485714"></viz:size>
-        <viz:position x="42.82404" y="235.26283" z="0.0"></viz:position>
+        <viz:position x="-42.82404" y="35.26283" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="4" label="United States of America">
@@ -51,7 +51,7 @@
           <attvalue for="tooltip" value="federal republic in North America"></attvalue>
         </attvalues>
         <viz:size value="69.485714"></viz:size>
-        <viz:position x="379.30386" y="42.06424" z="0.0"></viz:position>
+        <viz:position x="-79.30386" y="42.06424" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="5" label="Adam Gase">
@@ -60,7 +60,7 @@
           <attvalue for="tooltip" value="American football coach"></attvalue>
         </attvalues>
         <viz:size value="69.485714"></viz:size>
-        <viz:position x="-47.26337" y="316.03506" z="0.0"></viz:position>
+        <viz:position x="-47.26337" y="16.03506" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="6" label="American Football League">
@@ -69,7 +69,7 @@
           <attvalue for="tooltip" value="professional football league that merged with National Football League in 1970"></attvalue>
         </attvalues>
         <viz:size value="89.485714"></viz:size>
-        <viz:position x="-132.6012" y="85.16974" z="0.0"></viz:position>
+        <viz:position x="-132.6012" y="-85.16974" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="7" label="Hard Rock Stadium">
@@ -78,7 +78,7 @@
           <attvalue for="tooltip" value="home venue of the Miami Dolphins"></attvalue>
         </attvalues>
         <viz:size value="79.485714"></viz:size>
-        <viz:position x="382.69568" y="175.09113" z="0.0"></viz:position>
+        <viz:position x="32.69568" y="75.09113" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="8" label="American football">
@@ -87,7 +87,7 @@
           <attvalue for="tooltip" value="American sport in which opposing teams of eleven players attempt to score by advancing a ball by running, passing and kicking"></attvalue>
         </attvalues>
         <viz:size value="79.485714"></viz:size>
-        <viz:position x="320.384" y="387.17325" z="0.0"></viz:position>
+        <viz:position x="-32.384" y="87.17325" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="9" label="English">
@@ -96,7 +96,7 @@
           <attvalue for="tooltip" value="West Germanic language originating in England"></attvalue>
         </attvalues>
         <viz:size value="79.485714"></viz:size>
-        <viz:position x="344.39832" y="1.16772" z="0.0"></viz:position>
+        <viz:position x="44.39832" y="1.16772" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="10" label="human">
@@ -105,7 +105,7 @@
           <attvalue for="tooltip" value="common name of Homo sapiens , unique extant species of the genus Homo"></attvalue>
         </attvalues>
         <viz:size value="79.485714"></viz:size>
-        <viz:position x="389.34107" y="332.56128" z="0.0"></viz:position>
+        <viz:position x="89.34107" y="-82.56128" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="11" label="male">
@@ -123,7 +123,7 @@
           <attvalue for="tooltip" value="No description defined"></attvalue>
         </attvalues>
         <viz:size value="16.742859"></viz:size>
-        <viz:position x="-39.77908" y="384.69139" z="0.0"></viz:position>
+        <viz:position x="-39.77908" y="84.69139" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="13" label="Pascagoula">
@@ -132,7 +132,7 @@
           <attvalue for="tooltip" value="city in Mississippi, United States"></attvalue>
         </attvalues>
         <viz:size value="74.0"></viz:size>
-        <viz:position x="-14.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:position x="-14.31313" y="-78.55301" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="14" label="baseball player">
@@ -141,7 +141,7 @@
           <attvalue for="tooltip" value="person who plays the game of baseball"></attvalue>
         </attvalues>
         <viz:size value="74.0"></viz:size>
-        <viz:position x="158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:position x="158.05168" y="1.99768" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
     </nodes>

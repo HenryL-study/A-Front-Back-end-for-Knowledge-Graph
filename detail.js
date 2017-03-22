@@ -8,10 +8,7 @@ router.use(bodyParser.json());
 
 var filename = '';
 var datas = [];
-
-var head = '';
-var description = '';
-var img_url='#';
+var inference = [];
 
 router.route('/')
 
@@ -31,6 +28,7 @@ router.route('/')
         };
         //img_url = '';
         datas.push(data);
+        inference = [[0,1]];
     }
     else if("Who is Tom Cruise?" == req.query.search){
         filename = 'Q2.xml';
@@ -40,6 +38,7 @@ router.route('/')
             img_url : "https://upload.wikimedia.org/wikipedia/commons/2/27/TomCruiseDec08MTV_cropped.jpg"
         };
         datas.push(data);
+        inference = [[1,0],[2,0],[3,0],[4,0],[5,0]];
     }
     else if("Which American universities founded before the states they reside in were created?" == req.query.search){
         filename = 'Q3.xml';
@@ -91,6 +90,16 @@ router.route('/')
             img_url : ''
         };
         datas.push(data);
+        inference = [[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[0,9],[0,10]];
+    }
+    else if("Who is the president of French during the APEC?" == req.query.search){
+        filename = 'Q4.xml';
+        var data = {
+            head : "François Hollande",
+            description : "François Gérard Georges Nicolas Hollande (French: [fʁɑ̃swa ɔlɑ̃d] ( listen); born 12 August 1954) is a French politician who has been President of the French Republic since taking office in 2012. Hollande was previously the First Secretary of the French Socialist Party from 1997 to 2008, the mayor of Tulle from 2001 to 2008, and the President of the Corrèze General Council from 2008 to 2012. Hollande also served in the National Assembly of France twice for the department of Corrèze's 1st Constituency from 1988 to 1993, and again from 1997 to 2012."
+        }
+        datas.push(data);
+        inference = [[5,1],[1,0],[4,0]];
     }
     else{
         filename = 'les-miserables.gexf';
@@ -131,7 +140,7 @@ router.route('/les-miserables.gexf')
     
 //    res.writeHead(200, { 'Content-Type': 'text/plain' });
 //    res.end('Will send details of the dish: ' + req.params.id +' to you!');
-})
+});
 
 router.route('/content')
 .get(function(req,res,next){
@@ -141,6 +150,20 @@ router.route('/content')
     //console.log(req.query);
     //console.log(req.query.what);
     res.send(datas);
+    //res.sendFile(__dirname + "/public/" + filename);
+    
+//    res.writeHead(200, { 'Content-Type': 'text/plain' });
+//    res.end('Will send details of the dish: ' + req.params.id +' to you!');
+});
+
+router.route('/inference')
+.get(function(req,res,next){
+
+    //console.log('The solution ');
+    //console.log(req.baseUrl);
+    //console.log(req.query);
+    //console.log(req.query.what);
+    res.send(inference);
     //res.sendFile(__dirname + "/public/" + filename);
     
 //    res.writeHead(200, { 'Content-Type': 'text/plain' });

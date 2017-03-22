@@ -191,6 +191,21 @@ var myChart = echarts.init(dom);
 var app = {};
 option = null;
 myChart.showLoading();
+var dir = [[0,1]];
+$.get("/detail/inference",function(data){
+            dir = data;
+            
+            //addAnswerItem(data.modal_head,data.modal_des);
+//            var m_head = document.getElementById('m_head');
+//            var m_content = document.getElementById('m_content');
+//            var img = document.getElementById('ans_img');
+//            
+//            m_head.innerHTML = data.modal_head;
+//            m_content.innerHTML = data.modal_des;
+//            img.setAttribute("src", data.modal_img);
+            //alert("Data Loaded: " + data);
+        });
+           
 $.get('/detail/les-miserables.gexf', function (xml) {
     myChart.hideLoading();
 
@@ -199,10 +214,6 @@ $.get('/detail/les-miserables.gexf', function (xml) {
     var categories = [];
     var sei = [];
     
-
-
-    //should from server after get data!!!!!!!
-    var dir = [[0,1]];
     var convertData = function (data) {
         var res = [];
         for (var i = 0; i < data.length; i++) {
