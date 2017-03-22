@@ -10,6 +10,8 @@
 		<link rel="stylesheet" type="text/css" href="css/style3.css" />
         <link rel="stylesheet" type="text/css" href="css/button_style.css" />
         <link rel='stylesheet' href='http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css'>
+        <!-- List css -->
+        <link href="css/list.css" rel="stylesheet">
 		<!--[if IE]>
   		<script src="http://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.js"></script>
 		<![endif]--><script>document.documentElement.className = 'js';</script>
@@ -57,6 +59,8 @@
 				</symbol>
 			</defs>
 		</svg>
+
+
 		<main class="main-wrap htmleaf-container">
 			
 
@@ -187,7 +191,7 @@ var myChart = echarts.init(dom);
 var app = {};
 option = null;
 myChart.showLoading();
-$.get('/detail/les-miserables.gexf', function (xml) {
+$.get('les-miserables.gexf', function (xml) {
     myChart.hideLoading();
 
     var graph = echarts.dataTool.gexf.parse(xml);
@@ -423,19 +427,88 @@ if (option && typeof option === "object") {
 			
 		</main>
     
-        <div id="modal_111" class="modal_111 modal--align-top modal__bg" role="dialog" aria-hidden="true">
+        <div id="modal_111" class="modal_111 " role="dialog" aria-hidden="true" >
                         <div class="modal__dialog">
                             <div class="modal__content">
-                                <h1 style="color: #000000">KEY</h1>
+                                <!-- New List -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-7">
+                                
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h4 class="panel-title">
+                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Section 1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Section 2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Section 3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                Section 3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                        <div class="panel-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </div>
+                            </div>
+                            </div>
+                                <!-- New List End -->
+
+                                <!-- <h1 style="color: #000000">KEY</h1>
                                 <h3 id="m_head" style="color: #000000">NO ANSWER</h3>
                                 <p style="color: #000000"><img id="ans_img" src="assets/images/1.jpg" style="height: 300px; width: auto" alt="" class="img-rounded img-responsive"/></p>
-                                <p id="m_content" style="color: #000000">UNKNOWN</p>
+                                <p id="m_content" style="color: #000000">UNKNOWN</p> -->
                                 
 <!--
                                 <p style="color: #000000"><img src="assets/images/1.jpg" alt="" /></p>
                                 <p style="color: #000000">人生没有一帆风顺，要做一个简单的人。以简单的心境享受生命中的阳光与温暖，以从容的心态对待生活中的所有。用微笑摇曳出彼岸的春天，让幸福像花一样开放，让平淡的时光在指尖绽放光彩，镌刻出生命的最美。</p>
                                 <p style="color: #000000">有没有那么一个人，你无数次的说要放弃，但是终究还是舍不得。我们就是在这无数次的要放弃中蜕变成熟，也许，当我们能坦然的接受事实并真正放手的时候，我们才能真正成熟。也许，每个人都要经历这种蜕变才能长大。所以，我们总是欠挫折一个“谢谢”。</p>
--->
+-->                              
 
                                 <!-- modal close button -->
                                 <a href="" class="modal__close demo-close">
@@ -478,5 +551,7 @@ if (option && typeof option === "object") {
                 seedMovement: true
             });
         </script>
+
+
 	</body>
 </html>

@@ -2,7 +2,7 @@ var Modal = (function() {
 
   var trigger = $qsa('.modal__trigger'); // what you click to activate the modal
   var modals = $qsa('.modal_111'); // the entire modal (takes up entire window)
-  var modalsbg = $qsa('.modal__bg'); // the entire modal (takes up entire window)
+  var modalsbg = $qsa('.modal__bg_1'); // the entire modal (takes up entire window)
   var content = $qsa('.modal__content'); // the inner content of the modal
 	var closers = $qsa('.modal__close'); // an element used to close the modal
   var w = window;
@@ -71,7 +71,7 @@ var Modal = (function() {
     transY = Math.round(yc - trigProps.top - trigProps.height / 2);
 
 		// if the modal is aligned to the top then move the button to the center-y of the modal instead of the window
-    if (m.classList.contains('modal--align-top')) {
+    if (m.classList.contains('modal--align-top_1')) {
       transY = Math.round(mProps.height / 2 + mProps.top - trigProps.top - trigProps.height / 2);
     }
 
@@ -133,7 +133,7 @@ var Modal = (function() {
      * inside the modal and have it close.
      */
 
-    if (isOpen && target.classList.contains('modal__bg') || target.classList.contains('modal__close')) {
+    if (isOpen && target.classList.contains('modal__bg_1') || target.classList.contains('modal__close')) {
 
       // make the hidden div visible again and remove the transforms so it scales back to its original size
       div.style.opacity = '1';
