@@ -12,6 +12,7 @@
       <node id="0" label="François Hollande">
         <attvalues>
           <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="President of France"></attvalue>
         </attvalues>
         <viz:size value="80"></viz:size>
         <viz:position x="0" y="0" z="0.0"></viz:position>
@@ -20,6 +21,7 @@
       <node id="1" label="French">
         <attvalues>
           <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="Country"></attvalue>
         </attvalues>
         <viz:size value="60"></viz:size>
         <viz:position x="80" y="100" z="0.0"></viz:position>
@@ -28,6 +30,7 @@
       <node id="2" label="APEC meeting">
         <attvalues>
           <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="Asia-Pacific Economic Cooperation"></attvalue>
         </attvalues>
         <viz:size value="49"></viz:size>
         <viz:position x="100" y="50" z="0.0"></viz:position>
@@ -36,6 +39,7 @@
       <node id="3" label="Beijing">
         <attvalues>
           <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="tooltip" value="capital of the People's Republic of China"></attvalue>
         </attvalues>
         <viz:size value="34"></viz:size>
         <viz:position x="100" y="-50" z="0.0"></viz:position>
@@ -44,6 +48,7 @@
       <node id="4" label="2014 A.D.">
         <attvalues>
           <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="tooltip" value="the 2014th year of the Common Era (CE) and Anno Domini (AD) designations"></attvalue>
         </attvalues>
         <viz:size value="51"></viz:size>
         <viz:position x="30" y="-100" z="0.0"></viz:position>
@@ -52,70 +57,99 @@
       <node id="5" label="Nicolas Sarkozy">
         <attvalues>
           <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="a French politician who served as the President of France"></attvalue>
         </attvalues>
-        <viz:size value="23"></viz:size>
+        <viz:size value="33"></viz:size>
         <viz:position x="-20" y="-100" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="7" label="Seoul">
         <attvalues>
           <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="the capital city of South Korea"></attvalue>
         </attvalues>
-        <viz:size value="20"></viz:size>
+        <viz:size value="59"></viz:size>
         <viz:position x="-130" y="60" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="8" label="China">
         <attvalues>
           <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="People's Republic of China"></attvalue>
         </attvalues>
-        <viz:size value="27"></viz:size>
+        <viz:size value="47"></viz:size>
         <viz:position x="-37" y="134" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="9" label="Paris">
         <attvalues>
           <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="the capital and most populous city of France"></attvalue>
         </attvalues>
-        <viz:size value="14"></viz:size>
+        <viz:size value="44"></viz:size>
         <viz:position x="4" y="150" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
       <node id="10" label="Rouen">
         <attvalues>
           <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="tooltip" value="a city on the River Seine in the north of France"></attvalue>
         </attvalues>
-        <viz:size value="24"></viz:size>
+        <viz:size value="44"></viz:size>
         <viz:position x="-171" y="10" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="11" label="University of Rouen">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="tooltip" value="a French university"></attvalue>
+        </attvalues>
+        <viz:size value="44"></viz:size>
+        <viz:position x="-180" y="-60" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="12" label="Europe">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="tooltip" value="a continent that comprises the westernmost part of Eurasia"></attvalue>
+        </attvalues>
+        <viz:size value="54"></viz:size>
+        <viz:position x="180" y="180" z="0.0"></viz:position>
         <viz:color r="236" g="81" b="72"></viz:color>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="0" target="1">
+      <edge id="0" source="0" target="1" label="be president of">
         <attvalues></attvalues>
       </edge>
-      <edge id="1" source="2" target="3" weight="8.0">
+      <edge id="1" source="2" target="3" label="be held in">
         <attvalues></attvalues>
       </edge>
-      <edge id="2" source="2" target="4" weight="10.0">
+      <edge id="2" source="2" target="4" label="be held">
         <attvalues></attvalues>
       </edge>
-      <edge id="3" source="0" target="4" weight="6.0">
+      <edge id="3" source="0" target="4" label="be incumbent president">
         <attvalues></attvalues>
       </edge>
-      <edge id="4" source="5" target="1">
+      <edge id="4" source="5" target="1" label="be president of">
         <attvalues></attvalues>
       </edge>
-      <edge id="5" source="2" target="7">
+      <edge id="5" source="2" target="7" label="be held in">
         <attvalues></attvalues>
       </edge>
-      <edge id="6" source="3" target="8">
+      <edge id="6" source="3" target="8" label="be capital of">
         <attvalues></attvalues>
       </edge>
-      <edge id="7" source="9" target="1">
+      <edge id="7" source="9" target="1" label="be capital of">
         <attvalues></attvalues>
       </edge>
-      <edge id="8" source="0" target="10" weight="2.0">
+      <edge id="8" source="0" target="10" label="be born in">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="9" source="10" target="11" label="be located in">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="10" source="1" target="12" label="belongs to">
         <attvalues></attvalues>
       </edge>
     </edges>
