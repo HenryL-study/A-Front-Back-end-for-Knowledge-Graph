@@ -92,7 +92,7 @@ router.route('/')
         datas.push(data);
         inference = [[0,1],[0,2],[0,3],[0,4],[0,5],[0,6],[0,7],[0,8],[0,9],[0,10]];
     }
-    else if("Who is the president of French during the APEC?" == req.query.search){
+    else if("Who is the president of France during the APEC?" == req.query.search){
         filename = 'Q4.xml';
         var data = {
             head : "François Hollande",
