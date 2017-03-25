@@ -211,7 +211,15 @@ $.get('/detail/les-miserables.gexf', function (xml) {
 
     var graph = echarts.dataTool.gexf.parse(xml);
     //console.log(graph);
-    var categories = [];
+    //#########################################################
+    //ADD RGB CODE HERE!
+    var categories = ['#E7E3E1','#F9C5B8','#B5CFC6','#86BDAA','#FA8364'];
+	//######################################################### 
+    //group 2
+    // var categories = ['#ADCDED','#EAE1F0','#F7F7D0','#A0D8DE','#BBE5FA'];
+
+    // group 3
+    // var categories = ['#F3456D','#F4D95B','#95B55B','#F49930','#F26D6'];
     var sei = [];
     
     var convertData = function (data) {
@@ -294,11 +302,11 @@ $.get('/detail/les-miserables.gexf', function (xml) {
         }
     );
     
-    for (var i = 0; i < 9; i++) {
-        categories[i] = {
-            name: '类目' + i
-        };
-    }
+    // for (var i = 0; i < 9; i++) {
+    //     categories[i] = {
+    //         name: '类目' + i
+    //     };
+    // }
     graph.nodes.forEach(function (node) {
         node.itemStyle = null;
         node.value = [node.x,node.y];
@@ -308,6 +316,11 @@ $.get('/detail/les-miserables.gexf', function (xml) {
                 show: node.symbolSize > 30
             }
         };
+        node.itemStyle={
+                	normal: {
+		                color: categories[node.attributes.modularity_class]
+		            }
+                },
         node.category = node.attributes.modularity_class;
         node.tooltip = {
         	formatter : node.attributes.tooltip
