@@ -173,55 +173,55 @@
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="1" target="0" label="instance of">
+      <edge id="0" source="0" target="1" label="instance of">
         <attvalues></attvalues>
       </edge>
-      <edge id="1" source="2" target="0" label="sex or gender">
+      <edge id="1" source="0" target="2" label="sex or gender">
         <attvalues></attvalues>
       </edge>
-      <edge id="2" source="3" target="0" label="country of citizenship">
+      <edge id="2" source="0" target="3" label="country of citizenship">
         <attvalues></attvalues>
       </edge>
       <edge id="3" source="4" target="0" label="birth name">
         <attvalues></attvalues>
       </edge>
-      <edge id="4" source="5" target="0" label="place of birth">
+      <edge id="4" source="0" target="5" label="place of birth">
         <attvalues></attvalues>
       </edge>
-      <edge id="5" source="6" target="0" label="spouse">
+      <edge id="5" source="0" target="6" label="spouse">
         <attvalues></attvalues>
       </edge>
-      <edge id="6" source="7" target="0" label="partner">
+      <edge id="6" source="0" target="7" label="partner">
         <attvalues></attvalues>
       </edge>
-      <edge id="7" source="8" target="0" label="child">
+      <edge id="7" source="0" target="8" label="child">
         <attvalues></attvalues>
       </edge>
-      <edge id="8" source="9" target="0" label="relative">
+      <edge id="8" source="0" target="9" label="relative">
         <attvalues></attvalues>
       </edge>
-      <edge id="9" source="10" target="0" label="occupation">
+      <edge id="9" source="0" target="10" label="occupation">
         <attvalues></attvalues>
       </edge>
-      <edge id="10" source="11" target="0" label="award received">
+      <edge id="10" source="0" target="11" label="award received">
         <attvalues></attvalues>
       </edge>
-      <edge id="11" source="12" target="0" label="nominated for">
+      <edge id="11" source="0" target="12" label="nominated for">
         <attvalues></attvalues>
       </edge>
-      <edge id="12" source="13" target="0" label="educated at">
+      <edge id="12" source="0" target="13" label="educated at">
         <attvalues></attvalues>
       </edge>
-      <edge id="13" source="14" target="0" label="residence">
+      <edge id="13" source="0" target="14" label="residence">
         <attvalues></attvalues>
       </edge>
-      <edge id="14" source="15" target="0" label="religion">
+      <edge id="14" source="0" target="15" label="religion">
         <attvalues></attvalues>
       </edge>
-      <edge id="15" source="16" target="0" label="handedness">
+      <edge id="15" source="0" target="16" label="handedness">
         <attvalues></attvalues>
       </edge>
-      <edge id="16" source="17" target="0" label="filmography">
+      <edge id="16" source="0" target="17" label="filmography">
         <attvalues></attvalues>
       </edge>
     </edges>
