@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var https = require('https');
 var router = express.Router();
 
 module.exports = router;
@@ -102,17 +103,38 @@ router.route('/')
         inference = [[5,1],[1,0],[4,0]];
     }
     else{
-        var exec = require('child_process').exec; 
-        var cmdStr = 'curl http://www.weather.com.cn/data/sk/101010100.html';
+        var exec = require('child_process').exec;
+		var qString = req.query.search;
+        var cmdStr = '~/knowledge_graph/kg/bin/python ~/knowledge_graph/nlquery/main.py \'' + qString + '\'';
+		console.log(cmdStr);
+		var msql;
         exec(cmdStr, function(err,stdout,stderr){
             if(err) {
-                console.log('get weather api error:'+stderr);
+                console.log('get SparkQL query error:'+stderr);
             } else {
-                var data = JSON.parse(stdout);
-                console.log(data);
-            }
-        });
-
+                msql = stdout;
+				msql = msql.replace(/[\r\n]/g,"");
+                //console.log(data);
+				var url='https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=' + msql + '&format=json';
+				console.log(url);
+				var datas = '';
+				https.get(url, function (req,res) {
+					console.log(res);
+					res.on('data', function (data) {
+						datas += data;
+					});
+					req.on('end',function(){  
+						//parse json
+						console.log("NOW:!!!!");
+						var json = JSON.parse(datas);
+ 	        	        // find id
+						console.log(datas);
+					});
+					console.log(datas);
+				});
+				console.log(datas);
+			}
+		});
         filename = 'les-miserables.gexf';
         var data = {
             head : '',
