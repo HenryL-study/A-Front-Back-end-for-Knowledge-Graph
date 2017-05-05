@@ -113,23 +113,33 @@ router.route('/')
                 console.log('get SparkQL query error:'+stderr);
             } else {
                 msql = stdout;
-				msql = msql.replace(/[\r\n]/g,"");
+				var msqls = msql.split('\n');
+				msql='';
+				for(i=0;i<msqls.length;i++){
+					var temp = msqls[i].split('#')[0];
+					msql += temp;
+				}
+				//msql = msql.replace(/[\r\n]/g,"");
                 //console.log(data);
                 var url='https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=' + msql + '&format=json';
-                console.log(url);
-                var datas = '';
+                //console.log(url);
+                var ans_data = '';
                 http.get(url,function(req,res){
                     req.on('data', function (data) {
-                        datas += data;
+                        ans_data += data;
                     });
                     req.on('end',function(){
                         //parse json
-                        console.log("NOW:!!!!");
-                        var json = JSON.parse(datas);
-                        // find id
-                        console.log(datas);
+                        //console.log("NOW:!!!!");
+                        var json = JSON.parse(ans_data);
+                        //console.log(ans_data);
+						var bind = json.results.bindings;
+						for(i=0;i<bind.length;i++){
+							var ans = bind[i].valLabel.value;
+							console.log(ans);
+						}
                     });
-                    console.log(datas);
+                    //console.log(ans_data);
                 });
 			}
 		});
