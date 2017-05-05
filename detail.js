@@ -115,26 +115,24 @@ router.route('/')
                 msql = stdout;
 				msql = msql.replace(/[\r\n]/g,"");
                 //console.log(data);
+                var url='https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=' + msql + '&format=json';
+                console.log(url);
+                var datas = '';
+                http.get(url,function(req,res){
+                    req.on('data', function (data) {
+                        datas += data;
+                    });
+                    req.on('end',function(){
+                        //parse json
+                        console.log("NOW:!!!!");
+                        var json = JSON.parse(datas);
+                        // find id
+                        console.log(datas);
+                    });
+                    console.log(datas);
+                });
 			}
 		});
-        var url='https://query.wikidata.org/bigdata/namespace/wdq/sparql?query=' + msql + '&format=json';
-        console.log(url);
-        var datas = '';
-        http.get(url,function(req,res){
-            console.log(req);
-            req.on('data', function (data) {
-                datas += data;
-            });
-            req.on('end',function(){
-                //parse json
-                console.log("NOW:!!!!");
-                var json = JSON.parse(datas);
-                // find id
-                console.log(datas);
-            });
-            console.log(datas);
-        });
-        console.log(datas);
         filename = 'les-miserables.gexf';
         var data = {
             head : '',
